@@ -1,28 +1,70 @@
-# Cursor Trial Reset Tool
+# Cursor ID Reset Tool
 
-A utility tool that helps manage Cursor editor's device identification system by resetting stored device IDs. This can help users to resolve issues related to account restrictions when switching between accounts or during trial periods.
+A utility script designed to manage device identification for the Cursor editor. This tool can help resolve device-related authentication issues and assist in troubleshooting account-related problems.
 
-## Working Versions
+## 🔍 Compatibility
 
-✅ Cursor v0.45.9 and below
+- ✅ Tested on Cursor v0.45.9 and earlier versions
 
-## How It Works
+## 🛠️ Features
 
-The tool generates a new device identifier, which allows Cursor to recognize your system as a new device.
+- 🔄 Automatic backup of existing device IDs
+- 🎲 Generation of new random device identifiers
+- 🔐 Registry modification handling
+- 📝 Detailed logging of changes
+- 🔍 Verification of process state
 
-## WARNING
+## ⚡ Quick Start
 
-The tool changes registry info.
+1. Close Cursor completely (including background processes)
+2. Run the script with administrator privileges
+3. Wait for the process to complete
+4. Restart Cursor
 
-## Key Features
+## 🚨 Prerequisites
 
-- ✨ Automatic random device ID generation
+- Windows operating system
+- PowerShell 5.1 or later
+- Administrator privileges
+- Cursor editor must be completely closed
 
-This will generate a new random device ID.
+## ⚠️ Important Notes
 
-❗️❗️❗️ **Important**: You need to log out and completely close Cursor before running the script. If Cursor is still running in the background, it may revert back to the previous device ID, undoing the reset.
+- **Backup**: The script automatically creates backups of your original device IDs
+- **Process Check**: Includes automatic verification that Cursor is not running
+- **Registry Changes**: Modifies system registry entries related to device identification
 
-## Important Notice
+## 🔍 Technical Details
 
-This tool is developed for research and educational purposes only. Please use responsibly.
-The developer assumes no liability for any issues that may arise from using this tool.
+The script manages the following identifiers:
+- Machine GUID
+- Telemetry Machine ID
+- MAC Machine ID
+- Device ID
+- SQM ID
+
+## 📝 Logging
+
+All changes are logged with timestamps, including:
+- Backup file locations
+- New generated IDs
+- Modified registry entries
+
+## ⚠️ Disclaimer
+
+This tool is provided for educational and research purposes only. Users assume all responsibility for its use. The developer:
+- Makes no warranties about the tool's functionality
+- Is not responsible for any potential issues
+- Does not guarantee compatibility with future Cursor versions
+
+## 🤝 Contributing
+
+Feel free to submit issues and enhancement requests via GitHub.
+
+## 📜 License
+
+[MIT License](LICENSE)
+
+---
+
+💡 **Note**: Always ensure you have a backup of your system before making registry modifications.
