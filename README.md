@@ -3,9 +3,9 @@
 ## 🚀 Quick Installation
 
 Open PowerShell as Administrator and run:
-
+```
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; iwr -Uri "https://raw.githubusercontent.com/CeifadorPT/CursorTool/refs/heads/main/powershellcode.ps1" -UseBasicParsing | iex
-
+```
 That's it! The script will handle everything else automatically.
 
 ## 🔍 Compatibility
