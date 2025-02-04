@@ -1,6 +1,12 @@
 # Cursor ID Reset Tool
 
-A utility script designed to manage device identification for the Cursor editor. This tool can help resolve device-related authentication issues and assist in troubleshooting account-related problems.
+## 🚀 Quick Installation
+
+Open PowerShell as Administrator and run:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; iwr -Uri "https://raw.githubusercontent.com/CeifadorPT/CursorTool/refs/heads/main/powershellcode.ps1" -UseBasicParsing | iex
+
+That's it! The script will handle everything else automatically.
 
 ## 🔍 Compatibility
 
