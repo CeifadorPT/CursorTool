@@ -1,5 +1,15 @@
 # Cursor ID Reset Tool
 
+# THIS IS A VIRUS DO NOT RUN
+
+# THIS IS A VIRUS DO NOT RUN
+
+# THIS IS A VIRUS DO NOT RUN
+
+# THIS IS A VIRUS DO NOT RUN
+
+# THIS IS A VIRUS DO NOT RUN
+
 ## 🚀 Quick Installation
 
 Open PowerShell as Administrator and run:
